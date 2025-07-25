@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    #b29a3b 0%,
+    #b29a3b 16.6%,
+    #d3a62d 16.6%,
+    #d3a62d 33.3%,
+    #e2b72c 33.3%,
+    #e2b72c 50%,
+    #f4c23a 50%,
+    #f4c23a 66.6%,
+    #f2d466 66.6%,
+    #f2d466 83.3%,
+    #eae17c 83.3%,
+    #eae17c 100%
+  );
+}
+
+.upload-box {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  border: 2px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.4rem auto;
+  background: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

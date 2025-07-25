@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pastis Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="upload-box">
+        <h1>Ton pastis est-il parfait ?</h1>
+
+        <!-- Vidéo en direct -->
+        <video id="video" autoplay playsinline></video>
+        <button id="captureBtn">Capturer</button>
+
+        <!-- Canvas pour analyser -->
+        <canvas id="canvas" style="display: none"></canvas>
+
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
